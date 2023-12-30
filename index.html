@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap practice</title>
+    <link rel="stylesheet" href="./styles/bootstrap.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/e0ebe67689.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="header-bg">
+      <nav class="navbar container-lg navbar-expand-lg py-4">
+        <div class="container-fluid">
+
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto me-5">
+              <li class="nav-item me-4">
+                <a class="nav-link active text-secondary" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link text-secondary" href="#">Shop</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link text-secondary" href="#">News</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link text-secondary">Contact</a>
+              </li>
+            </ul>
+            <button class="btn btn-primary">Login</button>
+          </div>
+        </div>
+      </nav>
+
+      <section class="rounded-bottom container-lg pt-3 pb-5">
+        <div class="row row-cols-1 row-cols-sm-2 justify-content-center align-items-center pb-3 gy-5">
+            <div class="col px-5">
+                <p class="text-secondary">Computer-controlled digital transistorized with electronic advance</p>
+                <h1 class="text-white fw-bold display-5">Honda CBR 300R</h1>
+                <p class="text-secondary">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <button class="btn btn-primary">Purchase</button>
+            </div>
+            <div class="col text-center">
+                <img class="w-100" src="./images/header-bike.png" alt="">
+            </div>
+        </div>
+      </section>
+
+    </header>
+
+    <main class="container-lg">
+
+        <section class="my-5 py-3">
+            <h1  class="text-center mb-5 fw-bold display-5">Fetured Bikes In This Year</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center align-items-center g-4">
+                <div class="col text-center">
+                    <img style="filter: grayscale(100%);" class="img-fluid w-75" src="./images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col text-center">
+                    <img class="img-fluid w-75" src="./images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col text-center">
+                    <img style="filter: grayscale(100%);" class="img-fluid w-75" src="./images/feature-bike.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="my-5 py-5">
+            <h1  class="text-center mb-5 fw-bold display-5">latest News</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center g-4">
+                <div class="col">
+                  <div class="card h-100 rounded-4">
+                    <div class="p-3">
+                        <img src="./images/bike-1.png" class="card-img-top img-fluid" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Ducati XDIAVEL S-73</h5>
+                      <p class="card-text py-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <button class="btn btn-primary">Purchase</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 rounded-4">
+                    <div class="p-3">
+                        <img src="images/bike-2.png" class="card-img-top img-fluid" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Card title</h5>
+                      <p class="card-text py-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer..</p>
+                        <button class="btn btn-primary">Purchase</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 rounded-4">
+                    <div class="p-3">
+                        <img src="./images/bike-3.png" class="card-img-top img-fluid" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Card title</h5>
+                      <p class="card-text py-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <button class="btn btn-primary">Purchase</button>
+                    </div>
+                  </div>
+                </div>
+        </section>
+
+
+
+        <section class="my-5 py-5">
+            <h1 class="text-center mb-5 fw-bold display-5">Happy <span style="color: #E76F51;">Clients says</span></h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center gy-5">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./images/user-1.png" style="width: 120px;" class="card-img-top rounded-circle mx-auto mt-5" alt="...">
+                    <div class="card-body text-center px-5">
+                      <p>Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.
+                      </p>
+                      <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                      </div>
+                      <p class="text-info my-2 fw-bold">Regina Miles</p>
+                      <p>Banker</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./images/user-2.png" style="width: 120px;" class="card-img-top rounded-circle mx-auto mt-5" alt="...">
+                      <div class="card-body text-center px-5">
+                        <p>Slate helps you see how 
+                          many more days you need 
+                          to work to reach your financial 
+                          goal for the month and year.
+                        </p>
+                        <div class="icons">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <p class="text-info my-2 fw-bold">Regina Miles</p>
+                        <p>Banker</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="./images/user-3.png" style="width: 120px;" class="card-img-top rounded-circle mx-auto mt-5" alt="...">
+                      <div class="card-body text-center px-5">
+                        <p>Slate helps you see how 
+                          many more days you need 
+                          to work to reach your financial 
+                          goal for the month and year.
+                        </p>
+                        <div class="icons">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <p class="text-info my-2 fw-bold">Regina Miles</p>
+                        <p>Banker</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </section>
+
+
+
+
+        <section class="my-5 py-5">
+            <div class="row row-cols-1 row-cols-md-2 justify-content-center">
+                <div class="col d-flex justify-content-center">
+                    <img src="./images/Group.png" class="img-fluid" alt="">
+                </div>
+                <div class="col">
+                    <div class="accordion mb-4" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What are the most important things I should know about riding a bike?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic
+                                    signals, signs, and laws. Get in the mindset of “driving” your
+                                    bike—not just “riding” your bike. This will help you be a more
+                                    focused and legally compliant bike rider. 
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="accordion mb-4" id="accordionExample1">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne">
+                            What are the most important things I should know about riding a bike?
+                        </button>
+                        </h2>
+                        <div id="collapseOne1" class="accordion-collapse collapsed" aria-labelledby="headingOne1" data-bs-parent="#accordionExample1">
+                        <div class="accordion-body">
+                            <p>Safety First! Always obey the rules of the road. Obey all traffic
+                                signals, signs, and laws. Get in the mindset of “driving” your
+                                bike—not just “riding” your bike. This will help you be a more
+                                focused and legally compliant bike rider. 
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="container">
+
+    </footer>
+
+    <!-- Bootstrap js -->
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
